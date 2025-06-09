@@ -51,3 +51,8 @@ void MotorDriver::stop()
 {
     setMotor(0, 0, false, false); // Stop both motors
 }
+
+void MotorDriver::backward()
+{
+    setMotor(lspeed, rspeed, false, false); // Run both motors backward
+}

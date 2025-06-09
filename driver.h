@@ -20,6 +20,7 @@ public:
     void turnLeft();
     void stop();
     void turnRight();
+    void backward();
 };
 
 #endif
