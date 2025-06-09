@@ -1,0 +1,10 @@
+name=Motor Driver Library
+version=1.0.0
+author=HARIKESH O P <23b472@gcek.ac.in>
+maintainer=HARIKESH O P <23b472@gcek.ac.in>
+sentence=A library for controlling Motor Driver like L298N or L293D and other similar drivers.
+paragraph=A library for controlling Motor Driver like L298N or L293D and other similar drivers.
+category=Signal Input/Output
+url=https://github.com/HarikeshopGCEK/motorDriverLibrary
+architectures=*
+license=MIT
