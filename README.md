@@ -18,9 +18,9 @@ A simple Arduino library for controlling motor drivers like L298N, L293D, and ot
 ## Installation
 
 1. Download or clone this repository:
-    ```sh
-    git clone https://github.com/HarikeshopGCEK/motorDriverLibrary.git
-    ```
+   ```sh
+   git clone https://github.com/HarikeshopGCEK/motorDriverLibrary.git
+   ```
 2. Copy the `motorDriverLibrary` folder to your Arduino `libraries` directory.
 3. Restart the Arduino IDE.
 
@@ -31,7 +31,7 @@ A simple Arduino library for controlling motor drivers like L298N, L293D, and ot
 Connect your motor driver module to your Arduino as follows (example pins):
 
 | Motor Driver Pin | Arduino Pin |
-|------------------|-------------|
+| ---------------- | ----------- |
 | IN1              | 2           |
 | IN2              | 3           |
 | IN3              | 4           |
@@ -92,6 +92,7 @@ void loop() {
 - `void turnLeft()`
 - `void turnRight()`
 - `void stop()`
+- `void backward()`
 
 ## License
 
