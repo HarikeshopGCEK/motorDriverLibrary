@@ -14,7 +14,7 @@ public:
     MotorDriver(uint8_t in1, uint8_t in2, uint8_t in3, uint8_t in4, uint8_t ena, uint8_t enb,
                 int leftSpeed = 0, int rightSpeed = 0,
                 bool leftForward = true, bool rightForward = true);
-    void setMotor(int leftSpeed = 255, int rightSpeed = 255, bool leftForward, bool rightForward);
+    void setMotor(int leftSpeed = 255, int rightSpeed = 255, bool leftForward = true, bool rightForward = true);
     void begin();
     void setSpeed(int leftSpeed, int rightSpeed);
     void turnLeft();
