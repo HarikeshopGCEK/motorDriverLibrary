@@ -2,7 +2,7 @@
 #include <Arduino.h>
 
 MotorDriver::MotorDriver(uint8_t in1, uint8_t in2, uint8_t in3, uint8_t in4, uint8_t ena, uint8_t enb,
-                         int leftSpeed, int rightSpeed,
+                         int leftSpeed = 255, int rightSpeed = 255,
                          bool leftForward, bool rightForward)
     : in1(in1), in2(in2), in3(in3), in4(in4), ena(ena), enb(enb),
       lspeed(leftSpeed), rspeed(rightSpeed),

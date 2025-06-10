@@ -1,6 +1,6 @@
 {
     "name": "Motor Driver Library",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A library for controlling Motor Driver like L298N or L293D and other similar drivers.",
     "keywords": [
         "robotics",
