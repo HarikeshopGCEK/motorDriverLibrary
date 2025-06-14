@@ -32,12 +32,12 @@ void MotorDriver::setMotor(int leftSpeed, int rightSpeed, bool leftForward, bool
 
 void MotorDriver::turnLeft()
 {
-    setMotor(0, rspeed, false, true); // Stop left motor, run right motor
+    setMotor(lspeed, rspeed, false, true); // Stop left motor, run right motor
 }
 
 void MotorDriver::turnRight()
 {
-    setMotor(lspeed, 0, true, false); // Stop right motor, run left motor
+    setMotor(lspeed, rspeed, true, false); // Stop right motor, run left motor
 }
 
 void MotorDriver::setSpeed(int leftSpeed, int rightSpeed)
